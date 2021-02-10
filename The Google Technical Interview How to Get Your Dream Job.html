@@ -1,0 +1,431 @@
+
+<!-- saved from url=(0126)http://webcache.googleusercontent.com/search?q=cache:https://web.eecs.umich.edu/~weimerw/2018-481/readings/googleinterview.pdf -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body{margin-left:0;margin-right:0;margin-top:0}#bN015htcoyT__google-cache-hdr{background:#f5f5f5;font:13px arial,sans-serif;text-align:left;color:#202020;border:0;margin:0;border-bottom:1px solid #cecece;line-height:16px;padding:16px 28px 24px 28px}#bN015htcoyT__google-cache-hdr *{display:inline;font:inherit;text-align:inherit;color:inherit;line-height:inherit;background:none;border:0;margin:0;padding:0;letter-spacing:0}#bN015htcoyT__google-cache-hdr a{text-decoration:none;color:#1a0dab}#bN015htcoyT__google-cache-hdr a:hover{text-decoration:underline}#bN015htcoyT__google-cache-hdr a:visited{color:#609}#bN015htcoyT__google-cache-hdr div{display:block;margin-top:4px}#bN015htcoyT__google-cache-hdr b{font-weight:bold;display:inline-block;direction:ltr}</style></head><body bgcolor="#ffffff" vlink="blue" link="blue"><div id="bN015htcoyT__google-cache-hdr"><div><span>Esta es la versión html del archivo <a href="https://web.eecs.umich.edu/~weimerw/2018-481/readings/googleinterview.pdf">https://web.eecs.umich.edu/~weimerw/2018-481/readings/googleinterview.pdf</a>. Google genera automáticamente versiones html de documentos a medida que rastreamos el contenido de la Web.</span></div><span style="display:inline-block;margin-top:8px;color:#717171"><span>Consejo: para encontrar tu término de búsqueda rápido en esta página, presiona <b>Ctrl+F</b> o <b>⌘-F</b> (Mac) y usa la barra de búsqueda.</span></span></div><div style="position:relative;">
+
+
+<meta name="CreationDate" content="D:20131126095034-05&#39;00&#39;">
+<meta name="Creator" content="Adobe InDesign CS6 (Macintosh)">
+<meta name="ModDate" content="D:20131126095040-05&#39;00&#39;">
+<meta name="Producer" content="Adobe PDF Library 10.0.1">
+<title>The Google Technical Interview How to Get Your Dream Job</title>
+
+<table border="0" width="100%"><tbody><tr><td bgcolor="eeeeee" align="right"><font face="arial,sans-serif"><a name="1"><b>Page 1</b></a></font></td></tr></tbody></table><font size="3" color="#231f20" face="Times"><span style="font-size:11px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:1302;left:53"><nobr>12</nobr></div>
+</span></font>
+<font size="4" color="#7b7979" face="Times"><span style="font-size:22px;font-family:Times;color:#7b7979">
+<div style="position:absolute;top:191;left:26"><nobr>begin</nobr></div>
+</span></font>
+<font size="2" color="#231f20" face="Times"><span style="font-size:8px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:1305;left:616"><nobr>XRDS • winter 2013 • Vol.20 • no.2</nobr></div>
+</span></font>
+<font size="10" color="#231f20" face="Times"><span style="font-size:88px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:496;left:49"><nobr><b>m</b><font style="font-size:12px">ost successful students</font></nobr></div>
+</span></font>
+<font size="3" color="#231f20" face="Times"><span style="font-size:12px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:536;left:120"><nobr>would not consider taking a</nobr></div>
+<div style="position:absolute;top:553;left:120"><nobr>final exam without prepara-</nobr></div>
+<div style="position:absolute;top:570;left:120"><nobr>tion. For students—under-</nobr></div>
+<div style="position:absolute;top:588;left:54"><nobr>graduate and graduate—about to head</nobr></div>
+<div style="position:absolute;top:605;left:54"><nobr>into industry, job interviews benefit</nobr></div>
+<div style="position:absolute;top:622;left:54"><nobr>from the same level of consideration.</nobr></div>
+<div style="position:absolute;top:639;left:54"><nobr>There are many books and articles on</nobr></div>
+<div style="position:absolute;top:657;left:54"><nobr>interview skills, and most academic</nobr></div>
+<div style="position:absolute;top:674;left:54"><nobr>career centers offer additional train-</nobr></div>
+<div style="position:absolute;top:691;left:54"><nobr>ing. What this article covers is more</nobr></div>
+<div style="position:absolute;top:709;left:54"><nobr>specific: A high level view of Google’s</nobr></div>
+<div style="position:absolute;top:726;left:54"><nobr>engineering interviews.</nobr></div>
+<div style="position:absolute;top:743;left:72"><nobr>The interview process at Google</nobr></div>
+<div style="position:absolute;top:760;left:54"><nobr>has been designed (and redesigned!)</nobr></div>
+<div style="position:absolute;top:778;left:54"><nobr>from the ground up to avoid false posi-</nobr></div>
+<div style="position:absolute;top:795;left:54"><nobr>tives. We want to avoid making offers</nobr></div>
+<div style="position:absolute;top:812;left:54"><nobr>to candidates who would not be suc-</nobr></div>
+<div style="position:absolute;top:829;left:54"><nobr>cessful at Google. (The cost of this un-</nobr></div>
+<div style="position:absolute;top:847;left:54"><nobr>fortunately includes more false nega-</nobr></div>
+<div style="position:absolute;top:864;left:54"><nobr>tives, which are times when we turn</nobr></div>
+<div style="position:absolute;top:881;left:54"><nobr>down somebody who would have done</nobr></div>
+<div style="position:absolute;top:898;left:54"><nobr>well.) The recruiters and engineers you</nobr></div>
+<div style="position:absolute;top:916;left:54"><nobr>will speak with want to see where you</nobr></div>
+<div style="position:absolute;top:933;left:54"><nobr>shine, whether you can do the job, and</nobr></div>
+<div style="position:absolute;top:950;left:54"><nobr>make sure you’re someone they want</nobr></div>
+<div style="position:absolute;top:967;left:54"><nobr>to work with. This article is designed</nobr></div>
+<div style="position:absolute;top:985;left:54"><nobr>to help both you and Google achieve</nobr></div>
+<div style="position:absolute;top:1002;left:54"><nobr>those goals—and help the interview be</nobr></div>
+<div style="position:absolute;top:1019;left:54"><nobr>an interesting, even pleasant, experi-</nobr></div>
+<div style="position:absolute;top:1036;left:54"><nobr>ence, too.</nobr></div>
+<div style="position:absolute;top:1054;left:72"><nobr>You will meet at least two types of</nobr></div>
+<div style="position:absolute;top:1071;left:54"><nobr>Googlers (Google employees) in the</nobr></div>
+<div style="position:absolute;top:1088;left:54"><nobr>interview process. The first are our</nobr></div>
+<div style="position:absolute;top:1105;left:54"><nobr>recruiters. Recruiters are nontechni-</nobr></div>
+<div style="position:absolute;top:1123;left:54"><nobr>cal employees who are experts at both</nobr></div>
+<div style="position:absolute;top:1140;left:54"><nobr>finding candidates and helping them</nobr></div>
+<div style="position:absolute;top:1157;left:54"><nobr>through the interview process. The</nobr></div>
+<div style="position:absolute;top:1174;left:54"><nobr>second are our technical interviewers;</nobr></div>
+<div style="position:absolute;top:1192;left:54"><nobr>they are full time engineers who volun-</nobr></div>
+<div style="position:absolute;top:1209;left:54"><nobr>teer to help with the hiring process by</nobr></div>
+<div style="position:absolute;top:1226;left:54"><nobr>interviewing candidates like you. All</nobr></div>
+<div style="position:absolute;top:1243;left:54"><nobr>of our Googlers come from academic</nobr></div>
+<div style="position:absolute;top:1261;left:54"><nobr>backgrounds and from industry, and</nobr></div>
+<div style="position:absolute;top:519;left:573"><nobr>away may start with phone interviews</nobr></div>
+<div style="position:absolute;top:536;left:573"><nobr>before proceeding to an on site inter-</nobr></div>
+<div style="position:absolute;top:553;left:573"><nobr>view. The types of interviewers and</nobr></div>
+<div style="position:absolute;top:571;left:573"><nobr>which questions they ask are the same</nobr></div>
+<div style="position:absolute;top:588;left:573"><nobr>in both cases.</nobr></div>
+<div style="position:absolute;top:605;left:591"><nobr>Let’s break down a typical inter-</nobr></div>
+<div style="position:absolute;top:623;left:573"><nobr>view, piece by piece.</nobr></div>
+<div style="position:absolute;top:640;left:591"><nobr>The programming problems are</nobr></div>
+<div style="position:absolute;top:657;left:573"><nobr>not “trick” questions, but they will al-</nobr></div>
+<div style="position:absolute;top:674;left:573"><nobr>ways have aspects that require care</nobr></div>
+<div style="position:absolute;top:692;left:573"><nobr>and attention. First, make sure you</nobr></div>
+<div style="position:absolute;top:709;left:573"><nobr>understand the problem properly. It</nobr></div>
+<div style="position:absolute;top:726;left:573"><nobr>helps to clarify assumptions before</nobr></div>
+<div style="position:absolute;top:743;left:573"><nobr>diving in too deeply, and if you are con-</nobr></div>
+<div style="position:absolute;top:761;left:573"><nobr>fused about the question, do ask for</nobr></div>
+<div style="position:absolute;top:778;left:573"><nobr>examples, or for the question to be re-</nobr></div>
+<div style="position:absolute;top:795;left:573"><nobr>worded. The interviewer will often not</nobr></div>
+<div style="position:absolute;top:812;left:573"><nobr>offer information until you ask for it.</nobr></div>
+<div style="position:absolute;top:830;left:573"><nobr>“How big could the input be?” “What</nobr></div>
+<div style="position:absolute;top:847;left:573"><nobr>happens with bad inputs?” and “How</nobr></div>
+<div style="position:absolute;top:864;left:573"><nobr>often will we run this?” are three</nobr></div>
+<div style="position:absolute;top:881;left:573"><nobr>common clarifications. If you’re</nobr></div>
+<div style="position:absolute;top:899;left:573"><nobr>stuck, one thing to do is recheck your</nobr></div>
+<div style="position:absolute;top:916;left:573"><nobr>assumptions.</nobr></div>
+<div style="position:absolute;top:933;left:591"><nobr>After you have the clarifications that</nobr></div>
+<div style="position:absolute;top:950;left:573"><nobr>you need, dive into solving the prob-</nobr></div>
+<div style="position:absolute;top:968;left:573"><nobr>lem. There are usually several paths to</nobr></div>
+<div style="position:absolute;top:985;left:573"><nobr>a good solution. Much like math home-</nobr></div>
+<div style="position:absolute;top:1002;left:573"><nobr>work, it is essential to show your work;</nobr></div>
+<div style="position:absolute;top:1019;left:573"><nobr>the way to do this is to talk to the inter-</nobr></div>
+<div style="position:absolute;top:1037;left:573"><nobr>viewer, and explain what you are think-</nobr></div>
+<div style="position:absolute;top:1054;left:573"><nobr>ing. This is easy for some of us, but re-</nobr></div>
+<div style="position:absolute;top:1071;left:573"><nobr>ally hard for others, so it is important</nobr></div>
+<div style="position:absolute;top:1088;left:573"><nobr>to practice this skill. If narrating your</nobr></div>
+<div style="position:absolute;top:1106;left:573"><nobr>entire thought process will significant-</nobr></div>
+<div style="position:absolute;top:1123;left:573"><nobr>ly reduce your ability to think on your</nobr></div>
+<div style="position:absolute;top:1140;left:573"><nobr>feet, it is OK to be quiet for a minute</nobr></div>
+<div style="position:absolute;top:1157;left:573"><nobr>or two—but then tell the interviewer</nobr></div>
+<div style="position:absolute;top:1175;left:573"><nobr>what you considered, and why you</nobr></div>
+<div style="position:absolute;top:1192;left:573"><nobr>chose what you chose. The more you</nobr></div>
+<div style="position:absolute;top:1209;left:573"><nobr>can communicate your thought pro-</nobr></div>
+<div style="position:absolute;top:1227;left:573"><nobr>cess, the better. If this might be hard</nobr></div>
+<div style="position:absolute;top:1244;left:573"><nobr>for you to do, it is definitely worth prac-</nobr></div>
+<div style="position:absolute;top:1261;left:573"><nobr>ticing with a friend.</nobr></div>
+</span></font>
+<font size="6" color="#231f20" face="Times"><span style="font-size:41px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:412;left:54"><nobr>The Google Technical Interview</nobr></div>
+</span></font>
+<font size="6" color="#9c9a9b" face="Times"><span style="font-size:41px;font-family:Times;color:#9c9a9b">
+<div style="position:absolute;top:454;left:54"><nobr>How to Get Your Dream Job</nobr></div>
+</span></font>
+<font size="3" color="#000000" face="Times"><span style="font-size:11px;font-family:Times;color:#000000">
+<div style="position:absolute;top:394;left:58"><nobr><b>Careers</b></nobr></div>
+</span></font>
+<font size="3" color="#231f20" face="Times"><span style="font-size:12px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:519;left:314"><nobr>can answer most (if not all) of the ques-</nobr></div>
+<div style="position:absolute;top:536;left:314"><nobr>tions you might have, including wheth-</nobr></div>
+<div style="position:absolute;top:553;left:314"><nobr>er Google is likely to be a good fit for</nobr></div>
+<div style="position:absolute;top:570;left:314"><nobr>you. So please ask away!</nobr></div>
+<div style="position:absolute;top:588;left:331"><nobr>There is a standard format for most</nobr></div>
+<div style="position:absolute;top:605;left:314"><nobr>technical interviews. (Ph.D. students</nobr></div>
+<div style="position:absolute;top:622;left:314"><nobr>and more experienced candidates may</nobr></div>
+<div style="position:absolute;top:639;left:314"><nobr>be given one additional interview with</nobr></div>
+<div style="position:absolute;top:657;left:314"><nobr>a slightly different format, but similar</nobr></div>
+<div style="position:absolute;top:674;left:314"><nobr>advice applies.) For about 45 minutes</nobr></div>
+<div style="position:absolute;top:691;left:314"><nobr>you meet with a single technical inter-</nobr></div>
+<div style="position:absolute;top:709;left:314"><nobr>viewer, who will present a program-</nobr></div>
+<div style="position:absolute;top:726;left:314"><nobr>ming problem and ask you to work out</nobr></div>
+<div style="position:absolute;top:743;left:314"><nobr>one or more solutions to it. In some in-</nobr></div>
+<div style="position:absolute;top:760;left:314"><nobr>terviews, you will be asked to code up</nobr></div>
+<div style="position:absolute;top:778;left:314"><nobr>one of your solutions on a whiteboard.</nobr></div>
+<div style="position:absolute;top:795;left:314"><nobr>All of our questions have multiple so-</nobr></div>
+<div style="position:absolute;top:812;left:314"><nobr>lutions, and some of our questions do</nobr></div>
+<div style="position:absolute;top:829;left:314"><nobr>not have a single best answer, so if you</nobr></div>
+<div style="position:absolute;top:847;left:314"><nobr>have more than one solution, explain</nobr></div>
+<div style="position:absolute;top:864;left:314"><nobr>the tradeoffs or the benefits of your</nobr></div>
+<div style="position:absolute;top:881;left:314"><nobr>preferred solution.</nobr></div>
+<div style="position:absolute;top:898;left:331"><nobr>Each interview day will have up to</nobr></div>
+<div style="position:absolute;top:916;left:314"><nobr>five of these 45-minute interviews, de-</nobr></div>
+<div style="position:absolute;top:933;left:314"><nobr>pending on your schedule, proximity</nobr></div>
+<div style="position:absolute;top:950;left:314"><nobr>to the nearest office, and interviewer</nobr></div>
+<div style="position:absolute;top:967;left:314"><nobr>availability. Candidates living farther</nobr></div>
+</span></font>
+<font size="3" color="#231f20" face="Times"><span style="font-size:11px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:311;left:573"><nobr><b>the pebble smartwatch raised </b></nobr></div>
+<div style="position:absolute;top:328;left:573"><nobr><b>more than 100 times its </b></nobr></div>
+<div style="position:absolute;top:345;left:573"><nobr><b>funding goal on kickstarter.</b></nobr></div>
+</span></font>
+<font size="6" color="#69b628" face="Times"><span style="font-size:47px;font-family:Times;color:#69b628">
+<div style="position:absolute;top:259;left:573"><nobr><b>$10 m</b></nobr></div>
+</span></font>
+<font size="4" color="#231f20" face="Times"><span style="font-size:25px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:1119;left:314"><nobr><b>overall, the</b></nobr></div>
+<div style="position:absolute;top:1145;left:314"><nobr><b>interviewers are</b></nobr></div>
+<div style="position:absolute;top:1170;left:314"><nobr><b>simply trying to</b></nobr></div>
+<div style="position:absolute;top:1196;left:314"><nobr><b>decide one thing:</b></nobr></div>
+<div style="position:absolute;top:1221;left:314"><nobr><b>Would you be a</b></nobr></div>
+<div style="position:absolute;top:1247;left:314"><nobr><b>good fit for google? </b></nobr></div>
+</span></font>
+
+<div style="position:absolute;top:1349;left:0"><hr><table border="0" width="100%"><tbody><tr><td bgcolor="eeeeee" align="right"><font face="arial,sans-serif"><a name="2"><b>Page 2</b></a></font></td></tr></tbody></table></div><font size="3" color="#231f20" face="Times"><span style="font-size:11px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:2476;left:809"><nobr>13</nobr></div>
+</span></font>
+<font size="2" color="#231f20" face="Times"><span style="font-size:8px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:2479;left:63"><nobr>XRDS • winter 2013 • Vol.20 • no.2</nobr></div>
+</span></font>
+<font size="3" color="#231f20" face="Times"><span style="font-size:12px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:1693;left:81"><nobr>Feel free to give answers you know</nobr></div>
+<div style="position:absolute;top:1710;left:63"><nobr>are imperfect; explain briefly why they</nobr></div>
+<div style="position:absolute;top:1727;left:63"><nobr>are not the best answer, and keep go-</nobr></div>
+<div style="position:absolute;top:1744;left:63"><nobr>ing. The first solution is rarely the best,</nobr></div>
+<div style="position:absolute;top:1762;left:63"><nobr>and a sequence of answers very clearly</nobr></div>
+<div style="position:absolute;top:1779;left:63"><nobr>shows your thought process toward</nobr></div>
+<div style="position:absolute;top:1796;left:63"><nobr>solving the problem. It is also fine to</nobr></div>
+<div style="position:absolute;top:1813;left:63"><nobr>start with a brute-force approach, as</nobr></div>
+<div style="position:absolute;top:1831;left:63"><nobr>it gives an initial benchmark for the</nobr></div>
+<div style="position:absolute;top:1848;left:63"><nobr>answers that follow. One trap to avoid</nobr></div>
+<div style="position:absolute;top:1865;left:63"><nobr>is getting stuck thinking about incre-</nobr></div>
+<div style="position:absolute;top:1883;left:63"><nobr>mental improvements to the worst al-</nobr></div>
+<div style="position:absolute;top:1900;left:63"><nobr>gorithm; sometimes you will need to</nobr></div>
+<div style="position:absolute;top:1917;left:63"><nobr>leap to another approach.</nobr></div>
+<div style="position:absolute;top:1934;left:81"><nobr>One of the most important things</nobr></div>
+<div style="position:absolute;top:1952;left:63"><nobr>you should know is Big O notation</nobr></div>
+<div style="position:absolute;top:1969;left:63"><nobr>and the analysis it represents. It is the</nobr></div>
+<div style="position:absolute;top:1986;left:63"><nobr>common language for discussing algo-</nobr></div>
+<div style="position:absolute;top:2003;left:63"><nobr>rithmic performance. While Big O is</nobr></div>
+<div style="position:absolute;top:2021;left:63"><nobr>normally used to discuss how well an</nobr></div>
+<div style="position:absolute;top:2038;left:63"><nobr>algorithm will scale, it is also good to</nobr></div>
+<div style="position:absolute;top:2055;left:63"><nobr>consider disk, memory, network, and</nobr></div>
+<div style="position:absolute;top:2072;left:63"><nobr>other needs for each solution.</nobr></div>
+<div style="position:absolute;top:2090;left:81"><nobr>At any point in an interview it is fine</nobr></div>
+<div style="position:absolute;top:2107;left:63"><nobr>to ask if you can move to the white-</nobr></div>
+<div style="position:absolute;top:2124;left:63"><nobr>board to take notes, draw diagrams, or</nobr></div>
+<div style="position:absolute;top:2141;left:63"><nobr>explain what you are thinking. You are</nobr></div>
+<div style="position:absolute;top:2159;left:63"><nobr>also welcome to use pen and paper if it</nobr></div>
+<div style="position:absolute;top:2176;left:63"><nobr>will better help you keep your thoughts</nobr></div>
+<div style="position:absolute;top:2193;left:63"><nobr>organized. In many interviews, the in-</nobr></div>
+<div style="position:absolute;top:2210;left:63"><nobr>terviewer will ask you to move to the</nobr></div>
+<div style="position:absolute;top:2228;left:63"><nobr>whiteboard, and then it is usually time</nobr></div>
+<div style="position:absolute;top:2245;left:63"><nobr>to write some code.</nobr></div>
+<div style="position:absolute;top:2262;left:81"><nobr>For our engineering positions, you</nobr></div>
+<div style="position:absolute;top:2279;left:63"><nobr>will need to know a language like Java,</nobr></div>
+<div style="position:absolute;top:2297;left:63"><nobr>C++, or Python. Knowing more than</nobr></div>
+<div style="position:absolute;top:2314;left:63"><nobr>one is a nice touch, but you must know</nobr></div>
+<div style="position:absolute;top:2331;left:63"><nobr>one well. For each interview with a cod-</nobr></div>
+<div style="position:absolute;top:2348;left:63"><nobr>ing component, you will usually write</nobr></div>
+<div style="position:absolute;top:2366;left:63"><nobr>between 10 and 50 lines of code.</nobr></div>
+<div style="position:absolute;top:2383;left:81"><nobr>If you are rusty at coding, you should</nobr></div>
+<div style="position:absolute;top:2400;left:63"><nobr>practice. If you code every day, you</nobr></div>
+<div style="position:absolute;top:2417;left:63"><nobr>should still prepare by solving a few</nobr></div>
+<div style="position:absolute;top:2435;left:63"><nobr>interview -like questions. Candidates</nobr></div>
+</span></font>
+<font size="3" color="#231f20" face="Times"><span style="font-size:11px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:1485;left:401"><nobr><b>those in the Quantified self movement </b></nobr></div>
+<div style="position:absolute;top:1502;left:401"><nobr><b>collect data about themselves with sensors,with</b></nobr></div>
+<div style="position:absolute;top:1519;left:401"><nobr><b>the goal of making better life decisions.</b></nobr></div>
+</span></font>
+<font size="3" color="#231f20" face="Times"><span style="font-size:12px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:2107;left:323"><nobr>who prepare do better. You should also</nobr></div>
+<div style="position:absolute;top:2124;left:323"><nobr>practice writing code on a whiteboard,</nobr></div>
+<div style="position:absolute;top:2141;left:323"><nobr>and explaining what you are doing while</nobr></div>
+<div style="position:absolute;top:2158;left:323"><nobr>you do it. A whiteboard is significantly</nobr></div>
+<div style="position:absolute;top:2176;left:323"><nobr>different than using your favorite edi-</nobr></div>
+<div style="position:absolute;top:2193;left:323"><nobr>tor or IDE. It also helps to have a friend</nobr></div>
+<div style="position:absolute;top:2210;left:323"><nobr>or mentor review your practice code. As</nobr></div>
+<div style="position:absolute;top:2227;left:323"><nobr>you know, code that works perfectly but</nobr></div>
+<div style="position:absolute;top:2245;left:323"><nobr>is very hard for others to read is usually</nobr></div>
+<div style="position:absolute;top:2262;left:323"><nobr>not a good idea in team -based software</nobr></div>
+<div style="position:absolute;top:2279;left:323"><nobr>development. We are not worried about</nobr></div>
+<div style="position:absolute;top:2297;left:323"><nobr>handwriting, but we do actively look for</nobr></div>
+<div style="position:absolute;top:2314;left:323"><nobr>clean, maintainable code.</nobr></div>
+<div style="position:absolute;top:2331;left:340"><nobr>Testing code is important when</nobr></div>
+<div style="position:absolute;top:2348;left:323"><nobr>working as an engineer, and it helps</nobr></div>
+<div style="position:absolute;top:2366;left:323"><nobr>in interviews, too. After writing code,</nobr></div>
+<div style="position:absolute;top:2383;left:323"><nobr>you should test it. Run a normal in-</nobr></div>
+<div style="position:absolute;top:2400;left:323"><nobr>put, try the edge cases, and see if what</nobr></div>
+<div style="position:absolute;top:2417;left:323"><nobr>you wrote behaves properly. This helps</nobr></div>
+<div style="position:absolute;top:2435;left:323"><nobr>many candidates bump a mediocre an-</nobr></div>
+<div style="position:absolute;top:2107;left:582"><nobr>swer into a significantly above -the- bar</nobr></div>
+<div style="position:absolute;top:2124;left:582"><nobr>performance. When I interviewed for</nobr></div>
+<div style="position:absolute;top:2141;left:582"><nobr>my position at Google, this was the dif-</nobr></div>
+<div style="position:absolute;top:2159;left:582"><nobr>ference between code that worked and</nobr></div>
+<div style="position:absolute;top:2176;left:582"><nobr>a likely failure</nobr></div>
+<div style="position:absolute;top:2193;left:600"><nobr>If you are unsure about something,</nobr></div>
+<div style="position:absolute;top:2210;left:582"><nobr>you should be open about your uncer-</nobr></div>
+<div style="position:absolute;top:2228;left:582"><nobr>tainty. That will help you, not hurt you.</nobr></div>
+<div style="position:absolute;top:2245;left:582"><nobr>We value honest communication. Like-</nobr></div>
+<div style="position:absolute;top:2262;left:582"><nobr>wise, if you are stuck, it is OK to ask for</nobr></div>
+<div style="position:absolute;top:2279;left:582"><nobr>help if you need it—but fishing for an-</nobr></div>
+<div style="position:absolute;top:2297;left:582"><nobr>swers is a bad tactic. If the interviewer</nobr></div>
+<div style="position:absolute;top:2314;left:582"><nobr>gives you a hint, it’s always a good idea</nobr></div>
+<div style="position:absolute;top:2331;left:582"><nobr>to listen to it, and consider what they</nobr></div>
+<div style="position:absolute;top:2348;left:582"><nobr>said: Their comments aren’t random,</nobr></div>
+<div style="position:absolute;top:2366;left:582"><nobr>and they are trying to help you. If you</nobr></div>
+<div style="position:absolute;top:2383;left:582"><nobr>are working on an idea, and the inter-</nobr></div>
+<div style="position:absolute;top:2400;left:582"><nobr>viewer is silent (or just taking notes),</nobr></div>
+<div style="position:absolute;top:2417;left:582"><nobr>do not worry that something is going</nobr></div>
+<div style="position:absolute;top:2435;left:582"><nobr>wrong. They are waiting for you, and </nobr></div>
+</span></font>
+
+<div style="position:absolute;top:2523;left:0"><hr><table border="0" width="100%"><tbody><tr><td bgcolor="eeeeee" align="right"><font face="arial,sans-serif"><a name="3"><b>Page 3</b></a></font></td></tr></tbody></table></div><font size="3" color="#231f20" face="Times"><span style="font-size:11px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:3650;left:53"><nobr>14</nobr></div>
+</span></font>
+<font size="4" color="#7b7979" face="Times"><span style="font-size:22px;font-family:Times;color:#7b7979">
+<div style="position:absolute;top:2539;left:26"><nobr>begin</nobr></div>
+</span></font>
+<font size="2" color="#231f20" face="Times"><span style="font-size:8px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:3653;left:616"><nobr>XRDS • winter 2013 • Vol.20 • no.2</nobr></div>
+</span></font>
+<font size="3" color="#231f20" face="Times"><span style="font-size:12px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:3229;left:54"><nobr>most importantly, they are finding it</nobr></div>
+<div style="position:absolute;top:3246;left:54"><nobr>worth the wait.</nobr></div>
+<div style="position:absolute;top:3263;left:72"><nobr>Data structures and algorithms</nobr></div>
+<div style="position:absolute;top:3281;left:54"><nobr>are the most important classes in the</nobr></div>
+<div style="position:absolute;top:3298;left:54"><nobr>undergraduate curriculum. (Really!)</nobr></div>
+<div style="position:absolute;top:3315;left:54"><nobr>If your school offers higher -level algo-</nobr></div>
+<div style="position:absolute;top:3332;left:54"><nobr>rithms classes, take those as well. The</nobr></div>
+<div style="position:absolute;top:3350;left:54"><nobr>majority of successful applicants took</nobr></div>
+<div style="position:absolute;top:3367;left:54"><nobr>these courses, enjoyed them, and stud-</nobr></div>
+<div style="position:absolute;top:3384;left:54"><nobr>ied the material recently. Steve Yegge</nobr></div>
+<div style="position:absolute;top:3402;left:54"><nobr>wrote about this a few years back in</nobr></div>
+<div style="position:absolute;top:3419;left:54"><nobr>his blog post, “Get That Job At Google.”</nobr></div>
+<div style="position:absolute;top:3436;left:54"><nobr>I owe my job to reading his post; you</nobr></div>
+<div style="position:absolute;top:3453;left:54"><nobr>should read it too.</nobr></div>
+<div style="position:absolute;top:3471;left:72"><nobr>Overall, the interviewers are simply</nobr></div>
+<div style="position:absolute;top:3488;left:54"><nobr>trying to decide one thing: Would you</nobr></div>
+<div style="position:absolute;top:3505;left:54"><nobr>be a good fit for Google? Determining</nobr></div>
+<div style="position:absolute;top:3522;left:54"><nobr>that involves answering several other</nobr></div>
+<div style="position:absolute;top:3540;left:54"><nobr>questions. Are you someone they want</nobr></div>
+<div style="position:absolute;top:3557;left:54"><nobr>to work with? Are you someone who</nobr></div>
+<div style="position:absolute;top:3574;left:54"><nobr>would make their team better? Are you</nobr></div>
+<div style="position:absolute;top:3591;left:54"><nobr>someone they want writing code they</nobr></div>
+<div style="position:absolute;top:3609;left:54"><nobr>will use and depend on? Can you think</nobr></div>
+<div style="position:absolute;top:2781;left:314"><nobr>on your feet? Can you explain your</nobr></div>
+<div style="position:absolute;top:2798;left:314"><nobr>ideas to coworkers? Can you write and</nobr></div>
+<div style="position:absolute;top:2815;left:314"><nobr>test code? And are you friendly enough</nobr></div>
+<div style="position:absolute;top:2832;left:314"><nobr>to chat with every day?</nobr></div>
+<div style="position:absolute;top:2850;left:332"><nobr>At the end of each interview, there</nobr></div>
+<div style="position:absolute;top:2867;left:314"><nobr>will usually be a few minutes for you</nobr></div>
+<div style="position:absolute;top:2884;left:314"><nobr>to ask questions. Have a few ready!</nobr></div>
+<div style="position:absolute;top:2901;left:314"><nobr>The interviewers can tell you what</nobr></div>
+<div style="position:absolute;top:2919;left:314"><nobr>it is like to work here, what we love,</nobr></div>
+<div style="position:absolute;top:2936;left:314"><nobr>what we hate, how often we travel (or</nobr></div>
+<div style="position:absolute;top:2953;left:314"><nobr>don’t!), and are open to answering</nobr></div>
+<div style="position:absolute;top:2970;left:314"><nobr>pretty much anything you remember</nobr></div>
+<div style="position:absolute;top:2988;left:314"><nobr>to ask. (With one exception: We can’t</nobr></div>
+<div style="position:absolute;top:3005;left:314"><nobr>tell you how you did.)  This is a great</nobr></div>
+<div style="position:absolute;top:3022;left:314"><nobr>time to make sure that Google is the</nobr></div>
+<div style="position:absolute;top:3039;left:314"><nobr>right place for you.</nobr></div>
+<div style="position:absolute;top:3057;left:332"><nobr>A typical 45-minute interview will</nobr></div>
+<div style="position:absolute;top:3074;left:314"><nobr>consist of 35 minutes of program-</nobr></div>
+<div style="position:absolute;top:3091;left:314"><nobr>ming problems, five minutes of ques-</nobr></div>
+<div style="position:absolute;top:3108;left:314"><nobr>tions, which leaves only five minutes</nobr></div>
+<div style="position:absolute;top:3126;left:314"><nobr>for everything else, including an in-</nobr></div>
+<div style="position:absolute;top:3143;left:314"><nobr>troduction, discussing your resume,</nobr></div>
+<div style="position:absolute;top:3160;left:314"><nobr>and asking questions about your prior</nobr></div>
+<div style="position:absolute;top:3178;left:314"><nobr>work experience. That said, your re-</nobr></div>
+<div style="position:absolute;top:3195;left:314"><nobr>sume and work experience do matter;</nobr></div>
+<div style="position:absolute;top:3212;left:314"><nobr>that and any references are what get</nobr></div>
+<div style="position:absolute;top:3229;left:314"><nobr>you into an interview, so please make</nobr></div>
+<div style="position:absolute;top:3247;left:314"><nobr>sure to polish your resume.  Every in-</nobr></div>
+<div style="position:absolute;top:3264;left:314"><nobr>terviewer you will meet will have been</nobr></div>
+<div style="position:absolute;top:3281;left:314"><nobr>given your resume several days in</nobr></div>
+<div style="position:absolute;top:3298;left:314"><nobr>advance, which is part of what helps</nobr></div>
+<div style="position:absolute;top:3316;left:314"><nobr>them choose their questions.</nobr></div>
+<div style="position:absolute;top:3333;left:332"><nobr>Each interviewer has a limited</nobr></div>
+<div style="position:absolute;top:3350;left:314"><nobr>amount of time to convince them-</nobr></div>
+<div style="position:absolute;top:3367;left:314"><nobr>selves that you will be a great hire, and</nobr></div>
+<div style="position:absolute;top:3385;left:314"><nobr>they want to spend that time in the</nobr></div>
+<div style="position:absolute;top:3402;left:314"><nobr>most efficient way. Therefore once you</nobr></div>
+<div style="position:absolute;top:3419;left:314"><nobr>are in a technical interview, our inter-</nobr></div>
+<div style="position:absolute;top:3436;left:314"><nobr>viewers will mostly focus on program-</nobr></div>
+<div style="position:absolute;top:3454;left:314"><nobr>ming problems, not the resume, which</nobr></div>
+<div style="position:absolute;top:3471;left:314"><nobr>we find to be the best use of your time.</nobr></div>
+<div style="position:absolute;top:3488;left:332"><nobr>Although it’s unlikely to be the fo-</nobr></div>
+<div style="position:absolute;top:3505;left:314"><nobr>cus of an interview slot, be prepared</nobr></div>
+<div style="position:absolute;top:3523;left:314"><nobr>to discuss what is on your resume.</nobr></div>
+<div style="position:absolute;top:3540;left:314"><nobr>You should be able to talk about your</nobr></div>
+<div style="position:absolute;top:3557;left:314"><nobr>experiences (especially the technical</nobr></div>
+<div style="position:absolute;top:3574;left:314"><nobr>bits), explain your areas of focus and</nobr></div>
+<div style="position:absolute;top:3592;left:314"><nobr>why they interest you, and be able to</nobr></div>
+<div style="position:absolute;top:3609;left:314"><nobr>describe your contributions to the</nobr></div>
+<div style="position:absolute;top:2780;left:573"><nobr>projects you list. The typical inter-</nobr></div>
+<div style="position:absolute;top:2798;left:573"><nobr>view questions also apply: Why do you</nobr></div>
+<div style="position:absolute;top:2815;left:573"><nobr>want to work for Google, and which</nobr></div>
+<div style="position:absolute;top:2832;left:573"><nobr>types of projects are the most inter-</nobr></div>
+<div style="position:absolute;top:2849;left:573"><nobr>esting to you?</nobr></div>
+<div style="position:absolute;top:2867;left:591"><nobr>A question that comes up time</nobr></div>
+<div style="position:absolute;top:2884;left:573"><nobr>and again is: What should I wear?</nobr></div>
+<div style="position:absolute;top:2901;left:573"><nobr>For Google, the advice I hear repeat-</nobr></div>
+<div style="position:absolute;top:2919;left:573"><nobr>edly, and seems to hold true, is: “Wear</nobr></div>
+<div style="position:absolute;top:2936;left:573"><nobr>something that makes you feel com-</nobr></div>
+<div style="position:absolute;top:2953;left:573"><nobr>fortable.” The specifics are up to you.</nobr></div>
+<div style="position:absolute;top:2970;left:573"><nobr>That said, I feel it is still worth spend-</nobr></div>
+<div style="position:absolute;top:2988;left:573"><nobr>ing a bit of time on grooming. This will</nobr></div>
+<div style="position:absolute;top:3005;left:573"><nobr>be your first time meeting meeting</nobr></div>
+<div style="position:absolute;top:3022;left:573"><nobr>people you may work with for years,</nobr></div>
+<div style="position:absolute;top:3039;left:573"><nobr>and making a decent impression helps</nobr></div>
+<div style="position:absolute;top:3057;left:573"><nobr>convince the interviewer that they</nobr></div>
+<div style="position:absolute;top:3074;left:573"><nobr>want to work with you.</nobr></div>
+<div style="position:absolute;top:3091;left:591"><nobr>In summary: Refresh your knowl-</nobr></div>
+<div style="position:absolute;top:3108;left:573"><nobr>edge of data structures, algorithms,</nobr></div>
+<div style="position:absolute;top:3126;left:573"><nobr>and writing clean code on a white-</nobr></div>
+<div style="position:absolute;top:3143;left:573"><nobr>board. Come to the interview well</nobr></div>
+<div style="position:absolute;top:3160;left:573"><nobr>rested, and feel free to ask the recruit-</nobr></div>
+<div style="position:absolute;top:3177;left:573"><nobr>er questions ahead of time. Be able</nobr></div>
+<div style="position:absolute;top:3195;left:573"><nobr>to talk about your experience, and be</nobr></div>
+<div style="position:absolute;top:3212;left:573"><nobr>ready to spend most of your time on</nobr></div>
+<div style="position:absolute;top:3229;left:573"><nobr>the programming problems. Once in</nobr></div>
+<div style="position:absolute;top:3246;left:573"><nobr>the interview, feel free to ask ques-</nobr></div>
+<div style="position:absolute;top:3264;left:573"><nobr>tions about the problem you are work-</nobr></div>
+<div style="position:absolute;top:3281;left:573"><nobr>ing on. During the interview, make</nobr></div>
+<div style="position:absolute;top:3298;left:573"><nobr>sure to “talk out loud” enough. When</nobr></div>
+<div style="position:absolute;top:3315;left:573"><nobr>you make decisions on how to solve</nobr></div>
+<div style="position:absolute;top:3333;left:573"><nobr>something, make sure the interview-</nobr></div>
+<div style="position:absolute;top:3350;left:573"><nobr>er knows about it. And be sure to ask</nobr></div>
+<div style="position:absolute;top:3367;left:573"><nobr>questions that will help you find out if</nobr></div>
+<div style="position:absolute;top:3384;left:573"><nobr>Google is a good fit for you.</nobr></div>
+<div style="position:absolute;top:3402;left:591"><nobr>Finally, be who you are, and be the</nobr></div>
+<div style="position:absolute;top:3419;left:573"><nobr>best version of yourself. Our recruiters</nobr></div>
+<div style="position:absolute;top:3436;left:573"><nobr>liked you, and the odds are our engi-</nobr></div>
+<div style="position:absolute;top:3453;left:573"><nobr>neers will like you, too. Good luck!</nobr></div>
+<div style="position:absolute;top:3471;left:591"><nobr>(Parts of this have appeared in</nobr></div>
+<div style="position:absolute;top:3488;left:573"><nobr>“Anatomy of the Google Interview,” a</nobr></div>
+<div style="position:absolute;top:3505;left:573"><nobr>talk given at Google by Carl Evankov-</nobr></div>
+<div style="position:absolute;top:3522;left:573"><nobr>ich. Without his work there, this article</nobr></div>
+<div style="position:absolute;top:3540;left:573"><nobr>wouldn’t have happened; thank you!)</nobr></div>
+</span></font>
+<font size="2" color="#231f20" face="Times"><span style="font-size:7px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:3575;left:573"><nobr><b>Biography</b></nobr></div>
+<div style="position:absolute;top:3589;left:573"><nobr>Dean Jackson’s a member of the ACM and an engineer</nobr></div>
+<div style="position:absolute;top:3601;left:573"><nobr>working at Google Pittsburgh, focused on Google Ads, and a</nobr></div>
+<div style="position:absolute;top:3612;left:573"><nobr>frequent contributor to Google’s recruiting programs.</nobr></div>
+</span></font>
+<font size="3" color="#231f20" face="Times"><span style="font-size:11px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:2642;left:405"><nobr><b>a smart electricity grid </b></nobr></div>
+<div style="position:absolute;top:2659;left:405"><nobr><b>can adapt to prevent small</b></nobr></div>
+<div style="position:absolute;top:2676;left:405"><nobr><b>failures from producing </b></nobr></div>
+<div style="position:absolute;top:2693;left:405"><nobr><b>large blackouts.</b></nobr></div>
+</span></font>
+<font size="2" color="#231f20" face="Times"><span style="font-size:7px;font-family:Times;color:#231f20">
+<div style="position:absolute;top:3612;left:841"><nobr>P</nobr></div>
+<div style="position:absolute;top:3606;left:841"><nobr>h</nobr></div>
+<div style="position:absolute;top:3601;left:841"><nobr>o</nobr></div>
+<div style="position:absolute;top:3596;left:841"><nobr>to</nobr></div>
+<div style="position:absolute;top:3588;left:841"><nobr>g</nobr></div>
+<div style="position:absolute;top:3583;left:841"><nobr>rap</nobr></div>
+<div style="position:absolute;top:3569;left:841"><nobr>h</nobr></div>
+<div style="position:absolute;top:3562;left:841"><nobr>b</nobr></div>
+<div style="position:absolute;top:3557;left:841"><nobr>y A</nobr></div>
+<div style="position:absolute;top:3546;left:841"><nobr>hm</nobr></div>
+<div style="position:absolute;top:3533;left:841"><nobr>a</nobr></div>
+<div style="position:absolute;top:3528;left:841"><nobr>d</nobr></div>
+<div style="position:absolute;top:3521;left:841"><nobr>F</nobr></div>
+<div style="position:absolute;top:3516;left:841"><nobr>a</nobr></div>
+<div style="position:absolute;top:3511;left:841"><nobr>iz</nobr></div>
+<div style="position:absolute;top:3504;left:841"><nobr>al y</nobr></div>
+<div style="position:absolute;top:3490;left:841"><nobr>ah</nobr></div>
+<div style="position:absolute;top:3480;left:841"><nobr>y</nobr></div>
+<div style="position:absolute;top:3476;left:841"><nobr>a</nobr></div>
+</span></font>
+
+
+</div></body></html>
